@@ -51,7 +51,6 @@ Cada Historia de Usuario contiene su respectiva checklist y responsable asignado
 El seguimiento del desarrollo se realiza mediante:
 
 - 🔗 [Ver todos los Issues](../../issues)
-- 🎯 [Ver Milestones](../../milestones)
 
 El progreso se controla directamente desde los Issues, donde se marcan las tareas completadas y se cierran las Historias de Usuario finalizadas.
 
