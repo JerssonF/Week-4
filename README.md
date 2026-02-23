@@ -1,312 +1,71 @@
-# Week-4
+# Week 4 – Implementación de Historias de Usuario  
+Proyecto: FarmaExpres
 
-### Historias de Usuario – Requerimientos Funcionales (RF)  
-Proyecto: FarmaExpres  
-
----
-
-### HU-RF-01 – Registro de Usuarios
-
-Como Administrador,  
-quiero registrar usuarios con roles definidos,  
-para controlar el acceso al sistema según responsabilidades.
-
-Justificación:  
-Permite aplicar control de acceso basado en roles y proteger funciones críticas.
-
-Checklist:
-
-- Crear usuario con datos obligatorios.
-- Asignar rol (Administrador, Farmacéutico, Auxiliar, Auditor).
-- Validar que no exista duplicado.
-- Cifrar contraseña.
-- Registrar creación en bitácora.
+Repositorio correspondiente al desarrollo de las Historias de Usuario definidas para la fase de implementación del sistema de gestión de inventario farmacéutico por sede.
 
 ---
 
-### HU-RF-02 – Autenticación
+## 📚 Tabla de Contenido
 
-Como Usuario,  
-quiero iniciar sesión con mis credenciales,  
-para acceder al sistema de manera segura.
-
-Justificación:  
-Garantiza seguridad y trazabilidad de operaciones.
-
-Checklist:
-
-- Validar credenciales.
-- Bloquear acceso inválido.
-- Registrar intentos fallidos.
-- Redirigir según rol.
-- Aplicar cierre automático por inactividad.
+- [Descripción](#descripción)
+- [Historias de Usuario (RF)](#historias-de-usuario-rf)
+- [Seguimiento del Proyecto](#seguimiento-del-proyecto)
+- [Equipo de Trabajo](#equipo-de-trabajo)
 
 ---
 
-### HU-RF-03 – Recuperación de Contraseña
+## 🧾 Descripción
 
-Como Usuario,  
-quiero recuperar mi contraseña,  
-para restablecer acceso cuando la olvide.
+Durante la Week 4 se desarrollan las funcionalidades principales del sistema relacionadas con:
 
-Justificación:  
-Evita interrupciones operativas sin comprometer la seguridad.
+- Gestión de usuarios
+- Control de inventario
+- Registro de entradas
+- Alertas
+- Consulta y trazabilidad del inventario
 
-Checklist:
-
-- Solicitar recuperación.
-- Validar identidad.
-- Generar mecanismo seguro de restablecimiento.
-- Registrar acción en bitácora.
+Las tareas detalladas se gestionan mediante Issues en GitHub para garantizar seguimiento y control de avance.
 
 ---
 
-### HU-RF-05 – Bitácora de Acciones
+## 📌 Historias de Usuario (RF)
 
-Como Administrador o Auditor,  
-quiero consultar una bitácora de acciones críticas,  
-para garantizar trazabilidad y control.
+Las siguientes Historias de Usuario están creadas y gestionadas como Issues en el repositorio:
 
-Justificación:  
-Permite auditoría completa del sistema y análisis de inconsistencias.
+- HU-RF-01 – Gestión de Usuarios  
+- HU-RF-02 – Autenticación  
+- HU-RF-03 – Recuperación de Contraseña  
+- HU-RF-04 – Gestión de Sedes  
+- HU-RF-05 – Registro de Medicamentos  
+- HU-RF-06 – Registro de Entradas de Inventario  
+- HU-RF-07 – Consulta de Inventario  
+- HU-RF-08 – Alertas de Stock y Vencimiento  
+- HU-RF-09 – Historial de Movimientos  
 
-Checklist:
-
-- Registrar inicio y cierre de sesión.
-- Registrar ventas.
-- Registrar ajustes de inventario.
-- Registrar transferencias.
-- Registrar eliminaciones lógicas.
-- Registrar cambios de rol.
-- Permitir consulta filtrada.
+Cada Historia de Usuario contiene su respectiva checklist y responsable asignado.
 
 ---
 
-### HU-RF-06 – Registro de Medicamentos
+## 📊 Seguimiento del Proyecto
 
-Como Farmacéutico,  
-quiero registrar medicamentos con información completa,  
-para controlar inventario por lote y vencimiento.
+El seguimiento del desarrollo se realiza mediante:
 
-Justificación:  
-Es la base del control sanitario y administrativo del sistema.
+- 🔗 [Ver todos los Issues](../../issues)
+- 🎯 [Ver Milestones](../../milestones)
 
-Checklist:
-
-- Registrar código único.
-- Registrar nombre comercial.
-- Registrar principio activo.
-- Registrar número de lote.
-- Registrar fecha de vencimiento.
-- Registrar cantidad disponible.
-- Registrar ubicación.
-- Registrar precio unitario.
-- Registrar sede.
-- Registrar stock mínimo.
-- Definir estado (activo/inactivo).
-- Evitar duplicado código + lote.
+El progreso se controla directamente desde los Issues, donde se marcan las tareas completadas y se cierran las Historias de Usuario finalizadas.
 
 ---
 
-### HU-RF-07 – Actualización de Producto
+## 👥 Equipo de Trabajo
 
-Como Farmacéutico,  
-quiero actualizar información de medicamentos,  
-para mantener datos correctos y actualizados.
+Proyecto desarrollado por el equipo del programa de Ingeniería de Sistemas – CORHUILA.
 
-Justificación:  
-Permite mantener integridad y exactitud de la información.
-
-Checklist:
-
-- Permitir edición de campos autorizados.
-- Validar datos antes de guardar.
-- Registrar modificación en bitácora.
-- No alterar historial previo.
+- Backend  
+- Frontend  
+- QA  
+- Product Owner  
 
 ---
 
-### HU-RF-08 – Eliminación Lógica
-
-Como Administrador,  
-quiero desactivar productos sin eliminarlos físicamente,  
-para preservar trazabilidad histórica.
-
-Justificación:  
-Evita pérdida de información y mantiene coherencia en reportes.
-
-Checklist:
-
-- Cambiar estado a inactivo.
-- Impedir eliminación física.
-- Registrar acción en bitácora.
-- Bloquear venta de producto inactivo.
-
----
-
-### HU-RF-09 – Registro de Venta
-
-Como Auxiliar,  
-quiero registrar ventas de medicamentos,  
-para descontar automáticamente el stock.
-
-Justificación:  
-Automatiza procesos y reduce errores humanos.
-
-Checklist:
-
-- Validar stock disponible.
-- Verificar que el producto no esté vencido.
-- Descontar stock automáticamente.
-- Evitar stock negativo.
-- Registrar movimiento en historial.
-- Reflejar cambio en tiempo real.
-
----
-
-### HU-RF-10 – Alertas de Vencimiento y Stock
-
-Como Administrador,  
-quiero recibir alertas automáticas,  
-para evitar pérdidas por vencimiento o desabastecimiento.
-
-Justificación:  
-Es una necesidad crítica del negocio farmacéutico.
-
-Checklist:
-
-- Generar alerta por stock mínimo.
-- Generar alerta 30 días antes del vencimiento.
-- Generar alerta 15 días antes del vencimiento.
-- Bloquear productos vencidos automáticamente.
-- Mostrar lista de productos críticos.
-
----
-
-### HU-RF-11 – Consulta de Inventario en Tiempo Real
-
-Como Usuario,  
-quiero consultar inventario actualizado,  
-para tomar decisiones correctas.
-
-Justificación:  
-Evita desfases de información y descuadres de stock.
-
-Checklist:
-
-- Mostrar inventario por sede.
-- Reflejar cambios inmediatamente.
-- Permitir búsqueda por nombre o código.
-- Permitir filtrado por estado o vencimiento.
-
----
-
-### HU-RF-12 – Registro de Entrada (Compra)
-
-Como Farmacéutico,  
-quiero registrar entradas de inventario,  
-para aumentar el stock disponible.
-
-Justificación:  
-Permite control completo de abastecimiento.
-
-Checklist:
-
-- Registrar cantidad ingresada.
-- Asociar lote y vencimiento.
-- Actualizar stock automáticamente.
-- Registrar movimiento con usuario y fecha.
-
----
-
-### HU-RF-13 – Registro de Salida (Ajustes/Vencimientos)
-
-Como Farmacéutico,  
-quiero registrar salidas de inventario,  
-para mantener coherencia en el stock.
-
-Justificación:  
-Permite registrar pérdidas, ajustes o vencimientos.
-
-Checklist:
-
-- Registrar motivo de salida.
-- Validar cantidad disponible.
-- Descontar stock.
-- Registrar movimiento en historial.
-
----
-
-### HU-RF-14 – Historial de Movimientos
-
-Como Auditor,  
-quiero consultar historial detallado de movimientos,  
-para garantizar trazabilidad y análisis de rotación.
-
-Justificación:  
-Sin historial no existe auditoría ni control administrativo.
-
-Checklist:
-
-- Mostrar usuario.
-- Mostrar fecha y hora.
-- Mostrar tipo de movimiento.
-- Mostrar sede.
-- Mostrar cantidad afectada.
-- Permitir filtro por producto.
-- Permitir filtro por rango de fechas.
-- Impedir modificación del historial.
-
----
-
-### HU-RF-15 – Generación de Reportes
-
-Como Administrador,  
-quiero generar reportes de inventario y movimientos,  
-para apoyar la toma de decisiones.
-
-Justificación:  
-Permite análisis de desempeño y planificación.
-
-Checklist:
-
-- Generar reporte de inventario actual.
-- Generar reporte de productos agotados.
-- Generar reporte de próximos a vencer.
-- Generar reporte de historial de movimientos.
-- Permitir exportación básica.
-
----
-
-### HU-RF-16 – Acceso Concurrente
-
-Como Usuario,  
-quiero que el sistema permita múltiples usuarios simultáneamente,  
-para trabajar sin bloqueos.
-
-Justificación:  
-El sistema es multiusuario y centralizado.
-
-Checklist:
-
-- Permitir sesiones simultáneas.
-- Evitar inconsistencias en actualizaciones.
-- Manejar conflictos de edición.
-- Aplicar control transaccional.
-
----
-
-### HU-RF-17 – Actualización en Tiempo Real
-
-Como Usuario,  
-quiero que los cambios se reflejen inmediatamente,  
-para evitar desfases de información.
-
-Justificación:  
-Garantiza coherencia y sincronización del inventario.
-
-Checklist:
-
-- Reflejar cambios en otros usuarios conectados.
-- Actualizar vista sin recarga manual.
-- Confirmar consistencia tras cada operación.
+© 2026 FarmaExpres – Proyecto Académico
