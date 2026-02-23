@@ -7,30 +7,32 @@ Repositorio correspondiente al desarrollo de las Historias de Usuario definidas 
 
 ## 📚 Tabla de Contenido
 
-- [Descripción](#descripción)
+- [Descripción](#descripcion)
 - [Historias de Usuario (RF)](#historias-de-usuario-rf)
 - [Seguimiento del Proyecto](#seguimiento-del-proyecto)
 - [Equipo de Trabajo](#equipo-de-trabajo)
 
 ---
 
+<a id="descripcion"></a>
 ## 🧾 Descripción
 
 Durante la Week 4 se desarrollan las funcionalidades principales del sistema relacionadas con:
 
-- Gestión de usuarios
-- Control de inventario
-- Registro de entradas
-- Alertas
-- Consulta y trazabilidad del inventario
+- Gestión de usuarios  
+- Control de inventario  
+- Registro de entradas  
+- Generación de alertas  
+- Consulta y trazabilidad del inventario  
 
-Las tareas detalladas se gestionan mediante Issues en GitHub para garantizar seguimiento y control de avance.
+Las tareas detalladas se gestionan mediante Issues en GitHub, lo que permite un adecuado seguimiento del avance, asignación de responsabilidades y control del desarrollo.
 
 ---
 
+<a id="historias-de-usuario-rf"></a>
 ## 📌 Historias de Usuario (RF)
 
-Las siguientes Historias de Usuario están creadas y gestionadas como Issues en el repositorio:
+Las siguientes Historias de Usuario han sido creadas y gestionadas como Issues dentro del repositorio:
 
 - HU-RF-01 – Gestión de Usuarios  
 - HU-RF-02 – Autenticación  
@@ -42,28 +44,31 @@ Las siguientes Historias de Usuario están creadas y gestionadas como Issues en 
 - HU-RF-08 – Alertas de Stock y Vencimiento  
 - HU-RF-09 – Historial de Movimientos  
 
-Cada Historia de Usuario contiene su respectiva checklist y responsable asignado.
+Cada Historia de Usuario contiene su respectiva lista de verificación (checklist) y el responsable asignado para su desarrollo.
 
 ---
 
+<a id="seguimiento-del-proyecto"></a>
 ## 📊 Seguimiento del Proyecto
 
-El seguimiento del desarrollo se realiza mediante:
+El seguimiento del desarrollo se realiza mediante la gestión de Issues en GitHub:
 
 - 🔗 [Ver todos los Issues](../../issues)
 
-El progreso se controla directamente desde los Issues, donde se marcan las tareas completadas y se cierran las Historias de Usuario finalizadas.
+El progreso se controla directamente desde cada Issue, donde se marcan las tareas completadas y se cierran las Historias de Usuario finalizadas.
 
 ---
 
+<a id="equipo-de-trabajo"></a>
 ## 👥 Equipo de Trabajo
 
 Proyecto desarrollado por el equipo del programa de Ingeniería de Sistemas – CORHUILA.
 
-- Backend  
-- Frontend  
-- QA  
-- Product Owner  
+- Buitrago Murcia Jersson Fabián — @JerssonF  
+- Romero Trujillo Marlon David — @Marlon271  
+- Tello Méndez Nicolás — @temenico  
+- Vargas Herrera José Leonardo — @jose6668  
+
 
 ---
 
