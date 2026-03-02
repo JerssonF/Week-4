@@ -38,7 +38,7 @@ Las siguientes Historias de Usuario han sido creadas y gestionadas como Issues d
 - HU-RF-01 – Gestión de Usuarios  
 - HU-RF-02 – Autenticación  
 - HU-RF-03 – Recuperación de Contraseña  
-- HU-RF-04 – Registro de Lotes  
+- HU-RF-04 – Registro de Medicamentos  
 - HU-RF-05 – Registro de Entradas de Inventario  
 - HU-RF-06 – Registro de Ajustes  
 - HU-RF-07 – Consulta de Inventario  
