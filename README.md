@@ -38,13 +38,12 @@ Las siguientes Historias de Usuario han sido creadas y gestionadas como Issues d
 - HU-RF-01 – Gestión de Usuarios  
 - HU-RF-02 – Autenticación  
 - HU-RF-03 – Recuperación de Contraseña  
-- HU-RF-04 – Registro de Medicamentos  
-- HU-RF-05 – Registro de Lotes  
-- HU-RF-06 – Registro de Entradas de Inventario  
-- HU-RF-07 – Registro de Ajustes  
-- HU-RF-08 – Consulta de Inventario  
-- HU-RF-09 – Alertas de Stock y Vencimiento  
-- HU-RF-10 – Historial de Movimientos  
+- HU-RF-04 – Registro de Lotes  
+- HU-RF-05 – Registro de Entradas de Inventario  
+- HU-RF-06 – Registro de Ajustes  
+- HU-RF-07 – Consulta de Inventario  
+- HU-RF-08 – Alertas de Stock y Vencimiento  
+- HU-RF-09 – Historial de Movimientos  
 
 🔗 [Ver todos los Issues](../../issues)
 
