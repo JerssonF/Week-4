@@ -86,6 +86,5 @@ Las siguientes Historias de Usuario han sido creadas y gestionadas como Issues d
 - Vargas Herrera José Leonardo — @jose6668  
 
 ---
-git shortlog -s -n
 
 © 2026 FarmaExpres – Proyecto Académico
